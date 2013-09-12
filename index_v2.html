@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>	
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="QSD Webmasters" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<link href='http://fonts.googleapis.com/css?family=ABeeZee:400,400italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="assets/css/reset.css" />
+	<link rel="stylesheet" href="assets/lib/flex-slider/flexslider.css" />
+	<link href="http://vjs.zencdn.net/4.1/video-js.css" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<script type="text/javascript" src="assets/lib/modernizr/modernizr.custom.45783.js"></script>
+	<script type="text/javascript" src="assets/lib/jQuery/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="assets/lib/flex-slider/jquery.flexslider-min.js"></script>
+	<script src="http://vjs.zencdn.net/4.1/video.js"></script> 
+	<script type="text/javascript" src="assets/js/main.js"></script>
+	<script>
+		$(window).load(function() {
+		  $('.flexslider').flexslider({
+		    animation: "slide",
+		    animationLoop: true,
+		    itemWidth: 193,
+		    maxItems: 4
+		  });
+		  var myPlayer = videojs("qsd_video");
+		  $(".explainer-video-btn").on("click", function(){
+				$(".video-js .vjs-tech").attr( "position", "static" );		
+				$(".explainer-video").slideDown(1000);
+				myPlayer.play();
+				/* myPlayer.requestFullScreen(); */
+		  });
+		  $(".hide-video").on("click", function(){
+				myPlayer.pause();
+				$(".explainer-video").hide(3000);
+				$(".hide-video").attr( "display", "none" );
+		  });
+		});
+	</script>
+	<style type="text/css">
+		.explainer-video { position: absolute; display: none; width: 1102px; left: -1px; top: 1px; z-index: 1000; }
+		video { /* width: 100%!important; height: auto!important; */ }
+		#qsd_video { width: 100%!important; height: auto!important; }
+	  .vjs-default-skin { color: #e8e5e1!important; }
+	  .vjs-play-progress, .vjs-volume-level { background-color: #ed9818!important; }
+	  .vjs-control-bar { font-size: 118%!important; width: 1101px; left: -1px; }
+	  .video-js .vjs-tech {
+		position: static!important;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 619px;
+		}
+		.video-js { background-color: transparent!important; }
+		.hide-video { position: absolute; top: 750px; left: 300px; }
+	</style>
+	<title>Quality Sign Designer</title>
+</head>
+<body>
+	<h1 class="hide">Quality Sign Designer</h1>
+	<div id="page-container">
+	<section class="explainer-video">
+		<video id="qsd_video" class="video-js vjs-default-skin" controls preload="auto" poster="my_video_poster.png" data-setup="{}">
+			<source src="assets/video/QSD_Promo_v1.mp4" type='video/mp4'>
+		</video>
+		<a class="hide-video" href="#">HIDE VIDEO</a>
+	</section><!--END class="explainer-video"-->
+	<!--======================================================-->
+	<!--Page Header-->
+		<header id="page-header">
+			<section class="utility-nav">
+				<h2 class="hide">Quick Links</h2>
+				<div class="content-container">
+					<div class="social">
+						<ul>
+							<li class="share">SHARE US</li>
+							<li class="facebook"><a href="#"><img src="assets/img/icons/facebook_icon.png" alt="Like us on Facebook!" width="25" height="25"></a></li>
+							<li class="pintrest"><a href="#"><img src="assets/img/icons/pintrest_icon.png" alt="pintrest_icon" width="25" height="25"></a></li>
+						</ul>
+					</div>
+					<div class="quick-links">
+						<ul>
+							<li><a href="#">MY ACCOUNT</a></li>
+							<li><a href="#">FAQs</a></li>
+							<li><a href="#">CONTACT</a></li>
+							<li><a href="#">ABOUT</a></li>
+						</ul>
+					</div>
+					<div class="clear"></div><!--Restore Document Flow-->
+				</div><!--END class="content-container"-->
+			</section><!--END class="utility-nav"-->
+			<section class="header-body">
+				<h2 class="hide">Shipping and Contact Info</h2>
+				<div class="content-container">
+					<div class="branding">
+						<img src="assets/img/branding/logo.png" alt="logo" width="250" height="85">
+					</div>
+					<div class="cta">
+						<div class="shipping">
+							<img src="assets/img/icons/free_shipping_icon.png" alt="free_shipping_icon" width="54" height="65">
+							<p>
+								FREE SHIPPING 
+								<br />
+								<span>on ORDERS OVER $99</span>
+							</p>
+						</div>
+						<div class="contact">
+							<p class="phone">800-897-6083</p>
+							<ul>
+								<li class="email"><a href="#">Email Us</a></li>
+								<li class="live-chat"><a href="#">Live Chat</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="clear"></div><!--Restore Document Flow-->
+				</div><!--END class="content-container"-->
+			</section><!--END class="header-body"-->
+			<div class="divider-lg"></div><!--Purely Aesthetic-->
+			<nav class="main-nav">
+				<h2 class="hide">Main Navigation</h2>
+				<div class="content-container">
+					<ul>
+						<li><a href="http://www.qualitysigndesigner.com/index.html">Home</a><span>|</span></li>
+						<li><a href="#">Custom Banners</a><span>|</span></li>
+						<li><a href="#">Custom Flags</a><span>|</span></li>
+						<li><a href="#">Custom Yard Signs</a><span>|</span></li>
+						<li><a href="http://www.qualitysigndesigner.com/art.html">Art Requirements</a><span>|</span></li>
+						<li><a href="https://www.youtube.com/user/QualitySignDesigner">Video Tutorials</a><span>|</span></li>
+						<li><a href="#">Cart</a></li>
+						<!-- <li><a href="#">Property Management</a><span>|</span></li> -->
+						<!-- <li class="featured-industry">Featured Industry</li> -->
+					</ul>
+				</div>
+			</nav><!--END class="main-nav"-->
+			
+		</header><!--END id="page-header"-->
+		<div class="clear"></div><!--Restore Document Flow-->
+	<!--END Page Header-->
+	<!--======================================================-->
+	<!--Page Body-->
+		<section id="page-body">
+			<div class="divider-sm"></div><!--Purely Aesthetic-->
+			<h2 class="hide">Featured Content</h2>
+			<section class="company-spotlight">
+				<div class="content-container">
+					<div class="cta">
+						<h2>Custom Banners, Custom Signs & Custom Flags</h2>
+						<p>
+							Welcome to Quality Sign Designer, where you can design your own Custom Banners, Custom Signs and Custom Flags. We offer the 
+							widest selection of quality signs, banners and flags, using both custom and traditional slogans.
+						</p>
+						<ul>
+							<li class="start-designing-now"><a href="#"><img src="assets/img/buttons/start_designing_now_btn.png" alt="Start Designing Now!" width="238" height="56"></a></li>
+							<li class="explainer-video-btn"><a href="#"><img src="assets/img/buttons/explainer_video_btn.png" alt="Explainer Video!" width="208" height="56"></a></li>
+						</ul>
+						<div class="clear"></div><!--Restore Document Flow-->
+					</div>
+				</div>
+			</section><!--END class="company-spotlight"-->
+			<div class="divider-sm"></div><!--Purely Aesthetic-->
+			<section class="design-your-own">
+				<div class="content-container">
+					<h2>DESIGN YOUR OWN BANNER OR FLAG IN 3 EASY STEPS</h2>
+					<img class="design-your-own-img" src="assets/img/backgrounds/design_your_own.png" alt="Design Your Own Banner or Flag!" width="877" height="97">
+					<ol>
+						<li class="choose-a-product">
+							<h3>1. Choose A Product</h3>
+							<p>Create new design from scratch or start with one of our beautiful pre-defined templates, its your choice!</p>
+						</li>
+						<li class="start-designing">
+							<h3>2. Start Designing</h3>
+							<p>Design to your hearts content! With hundreds of design choices creativity is never a problem.</p>
+						</li>
+						<li class="add-to-cart">
+							<h3>3. Add To Cart</h3>
+							<p>Checkout is simple and new orders ship within 24 to 48 business hours, with QSD, you can't go wrong. </p>
+						</li>
+					</ol>
+					<div class="clear"></div><!--Restore Document Flow-->
+				</div>
+			</section><!--END class="design-your-own" -->
+			<section class="featured-catalog">
+				<div class="content-container">
+				<!-- <h2>Featured Catalogs</h2> -->
+					<div class="flexslider">
+					  <ul class="slides">
+					    <li>
+					    	<h3>Banners</h3>
+					      <img src="assets/img/general/70off.jpg" alt="70off" width="190" height="143" />
+					      <p><a href="#">SHOP</a></p>
+					    </li>
+					    <li>
+					    	<h3>Feathers</h3>
+					      <img src="assets/img/general/120days.jpg" alt="120days" width="190" height="143" />
+					      <p><a href="#">SHOP</a></p>
+					    </li>
+					    <li>
+					    	<h3>Signs</h3>
+					      <img src="assets/img/general/big_sale_v2.jpg" alt="big_sale_v2" width="190" height="143" />
+					      <p><a href="#">SHOP</a></p>
+					    </li>
+					    <li>
+					    	<h3>More</h3>
+					      <img src="assets/img/general/everything_must_go.jpg" alt="everything_must_go" width="190" height="143" />
+					      <p><a href="#">SHOP</a></p>
+					    </li>
+					    <li>
+					    	<h3>Examples</h3>
+					      <img src="assets/img/general/grand_opening.jpg" alt="grand_opening" width="190" height="143" />
+					      <p><a href="#">SHOP</a></p>
+					    </li>
+					    <li>
+					    	<h3>Here</h3>
+					      <img src="assets/img/general/save_big.jpg" alt="save_big" width="190" height="143" />
+					      <p><a href="#">SHOP</a></p>
+					    </li>
+					    <!-- items mirrored twice, total of 12 -->
+					  </ul>
+					</div><!--END class="flexslider"-->
+				</div>
+			</section><!--END class="featured-catalog"-->
+			<section class="welcome">
+				<div class="content-container">
+					<img src="assets/img/branding/logo_sign.png" alt="Welcome from Quality Sign Designer!" width="325" height="235">
+					<div class="copy">
+						<h2>Welcome From Quality Sign Designer!</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+					<div class="clear"></div><!--Restore Document Flow-->
+				</div>
+			</section><!--END class="welcome"-->
+		</section><!--END id="page-body"-->
+	<!--END Page Body-->
+	<!--======================================================-->
+		<footer id="page-footer">
+			<div class="content-container">
+				<div class="legal">
+					<ul>
+						<li class="all-rights-reserved"><small>&copy; Quality Sign Designer <span>|</span> All Right Reserved</small></li>
+						<li class="art-req"><a href="http://www.qualitysigndesigner.com/art.html">Art Requirements</a><span>|</span></li>
+						<li class="shipping-returns"><a href="http://www.qualitysigndesigner.com/shipping.html">Shipping and Returns</a><span>|</span></li>
+						<li class="faqs"><a href="http://www.qualitysigndesigner.com/faqs.html">FAQs</a><span>|</span></li>
+						<li class="privacy"><a href="http://www.qualitysigndesigner.com/privacypolicy.html">Privacy</a></li>
+					</ul>
+				</div>
+				<div class="divider-lg"></div><!--Purely Aesthetic-->
+				<nav class="footer-links">
+					<ul class="quick-links">
+						<li class="no-format">
+							<h2>Quick Links</h2>
+						</li>
+						<li><a href="http://www.qualitysigndesigner.com/index.html">Home</a></li>
+						<li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/ext_useraccess">My Account</a></li>
+						<li><a href="http://www.qualitysigndesigner.com/contactus.html">Contact</a></li>
+						<li><a href="http://www.qualitysigndesigner.com/aboutus.html">About</a></li>
+						<li><a href="https://www.youtube.com/user/QualitySignDesigner">Video Tutorials</a></li>
+						<li class="no-format">
+							<h2 class="feather-flags">Feather Flags</h2>
+						</li>
+						<li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/index.php&tng=Y3BpPTYwMzg0JmN0aT0xNDkzOA==">13' Feather Dancer</a></li>
+						<li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/index.php&tng=Y3BpPTYwMjg3JmN0aT0xNDU5Mw==">17' Feather Dancer</a></li>
+						<li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/index.php&tng=Y3BpPTYwNjI3JmN0aT0xNDk1OQ==">Soccer</a></li>
+						<li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/index.php&tng=Y3BpPTYwNjI3JmN0aT0xNDk1OQ==">Bait and Tackle</a></li>
+						<li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/index.php&tng=Y3BpPTYwNjI2JmN0aT0xNDk1OA==">Produce</a></li>
+						<li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/index.php&tng=Y3BpPTYwNjI1JmN0aT0xNDk1Nw==">Pest Control</a></li>
+						<li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/index.php&tng=Y3BpPTYwNjE3JmN0aT0xNDk1MQ==">We By Gold</a></li>
+						<li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/index.php&tng=Y3BpPTYwNjEwJmN0aT0xNDk0OA==">Quick Care</a></li>
+					</ul>
+					<ul class="banner-links">
+						<li class="no-format">
+							<h2 class="banners">Banners</h2>
+						</li>
+						<li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/index.php&tng=Y3BpPTYxNTE5JmNwaXM9MjcxMDI5JmNwaXNfdz03MiZjcGlzX2g9MzYmY3RpZz0w">Design Your Own Banner</a></li>
+						<li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTExMjA=">Auto Dealers</a></li>
+						<li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTExMTk=">Business</a></li>
+						<li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTE2Mjk=">Fireworks</a></li>
+						<li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTExMTY=">Real Estate</a></li>
+						<li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTExMjU=">Religious</a></li>
+						<li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTExMjM=">School</a></li>
+						<li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTExMjE=">Sports</a></li>
+						<li class="no-format">
+							<h2 class="special-events">Special Event</h2>
+						</li>
+						<li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTE2NDI=">Baby Announcements</a></li>
+						<li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTE2NDA=">Birthdays</a></li>
+						<li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTE2NDQ=">Graduations</a></li>
+						<li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTE2NDE=">Holidays</a></li>
+						<li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTE2NDU=">Reunions</a></li>
+					</ul>
+					<ul class="yard-sign-flags-links">
+						<li class="no-format">
+							<h2 class="yard-signs">Yard Signs</h2>
+						</li>
+						<li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTE3MzA=">Design Your Own Sign</a></li>
+						<li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTE3MzE=">Business</a></li>
+						<li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTE3NDE=">Political</a></li>
+						<li class="no-format">
+							<h2 class="custom-flags">Custom Flags</h2>
+						</li>
+						<li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/catalog/index.php&p=cGM9MTE4NjQ=">Auto Dealer</a></li>
+						<li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/catalog/index.php&p=cGM9MTE4Mzc=">Business</a></li>
+						<li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/catalog/index.php&p=cGM9MTE4NTc=">Fireworks</a></li>
+						<li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/catalog/index.php&p=cGM9MTE4NzE=">Property Management</a></li>
+						<li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/catalog/index.php&p=cGM9MTE4Mzg=">Real Estate</a></li>
+						<li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/catalog/index.php&p=cGM9MTE4NjU=">Special Events</a></li>
+						<li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/catalog/index.php&p=cGM9MTE4Mzk=">Sports</a></li>
+						<li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/index.php&tng=Y3BpPTYxMTI4JmN0aT0xNTQ0Nw==">Sale</a></li>
+						<li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/index.php&tng=Y3BpPTYwOTU5JmN0aT0xNTA4OQ==">For Rent</a></li>
+						<li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/index.php&tng=Y3BpPTYxMDc3JmN0aT0xNTMwMg==">Welcome</a></li>
+					</ul>
+				</nav><!--END class="quick-links"-->
+				<div class="marketing">
+					<div class="newsletter"></div>
+					<div class="social">
+						<ul>
+							<li><img src="assets/img/icons/facebook_icon_v2.png" alt="facebook_icon_v2" width="26" height="25"></li>
+							<li><img src="assets/img/icons/pintrest_icon_v2.png" alt="pintrest_icon_v2" width="26" height="25"></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="clear"></div><!--Restore Document Flow-->
+		</footer><!--END id="page-footer"-->
+		<!--======================================================-->
+	</div><!--END id="page-container"-->
+</body>
+</html>
