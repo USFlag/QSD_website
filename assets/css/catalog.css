@@ -1,6 +1,18 @@
-/*Google Fonts
-font-family: 'Roboto', sans-serif;
-*/
+
+
+body {
+	background-color: #f2f2f2;
+	font-family: 'ABeeZee', 'Palatino Linotype', 'Book Antiqua', 'Times New Roman', Times, Palatino, serif;
+	font-size: 13px;
+}
+
+
+/*Design Tool*/
+#super_container {
+	margin-top: 30px!important;
+}
+
+
 body {
         /*  background:#FFFFFF; */
 }
@@ -154,6 +166,15 @@ h3 center {
 /* -------------- START MAIN CONTAINERS STYLES (placement elements) ------------------ */
 	
 #catalog_maincontainer { /* Container to place... all the other containers! */
+	background-color: #fff;
+	width: 1100px;
+	margin: 60px auto 0 auto;
+	border: 1px solid #7a637a;
+	box-shadow: 0px 0px 10px #7a637a;
+	position: relative;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
 /*
 	background:#1e1e1e url(http://www.qualitydealersupply.com/images/Web-3.0-MainBG.jpg) repeat;
 	border:none;
@@ -168,6 +189,21 @@ h3 center {
 }
 	
 #catalog_menulinks { /* Container to place menu links */	
+	
+	color: #444444;
+	width: 185px;
+	float: left;
+	background-color: #f2f2f2;
+	position: absolute;
+	height: 100%;
+	-moz-border-top-left-radius: 5px;
+	-webkit-border-top-left-radius: 5px;
+	border-top-left-radius: 5px;
+	-moz-border-bottom-left-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	 
+
 /*
 	float:left;
 	left:0;
@@ -181,6 +217,12 @@ h3 center {
 }
 
 #catalog_maincontents {
+
+	width: 855px;
+	float: left;
+	margin: 0 30px 30px 30px;
+	margin-left: 212px;
+	min-height: 500px;
 /*
 	float:left;
 	margin:0px;
@@ -190,6 +232,9 @@ h3 center {
 }
 
 #catalog_maincontents table {	
+
+	margin: 0 auto;
+
 /*
 	margin-bottom:0;
 	margin-right:0;
@@ -209,18 +254,93 @@ h3 center {
 */
 }
 
+.catalog-intro-copy {
+	margin: 0;
+	width: 590px;
+}
+.catalog-intro-copy h2 {
+	font-size: 30px;
+	color: #e38a22;
+	margin-top: 3px;
+}
+.catalog-intro-copy p {
+	margin: 15px 0 25px 0;
+	font-size: 14px;
+	line-height: 30px;
+	color: #444444;
+	font-family: 'Roboto', Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	text-align: justify;
+	width: 595px!important;
+}
+
+.catalog-cta {
+	background-image: url(http://www.qualitysigndesigner.com/assets/img/backgrounds/catalog_bkg.png);
+	background-repeat: no-repeat;
+	background-position: top;
+	position: absolute;
+	top: -45px;
+	left: 800px;
+	width: 300px;
+	height: 300px;
+}
+.catalog-cta h3 {
+	font-size: 20px;
+	padding: 35px 35px 0 35px;
+	text-align: center;
+	color: #e38a22;
+}
+.catalog-cta p {
+	color: #e38a22;
+	width: 300px;
+	margin: 15px auto;
+	font-size: 60px;
+	text-align: center;
+}
+.catalog-cta a {
+	display: block;
+	width: 208px;
+	margin: 0 auto;
+}
+.catalog-banner-img {}
+.catalog-banner-img img {}
+
 #catalog_topbar { /* Container to place the topbar */
+	width: 579px;
 /*
 	margin: 0;
 	white-space: nowrap;
 */
 }
 
+.catalog_topbar_links {
+	margin-top: 22px!important;
+	display: inline-block!important;
+	margin-left: 5px;
+}
+.catalog_topbar_links a {
+	text-decoration: none!important;
+	color: #e38a22;
+	font-size: 14px;
+}
+.catalog_topbar_links br {
+	display: none;
+}
+
 #catalog_itemscontainer_products_cats_breaker {
+
 /*
 	display: block;
 	clear: both;
 */
+}
+#catalog_templates_templates{
+	text-align: center;
+}
+#catalog_templates_templates h3{
+	font-size: 22px;
+	padding: 15px 15px 15px 0;
+	color: #e38a22;
 }
 	
 #catalog_itemscontainer_sizes_breaker {
@@ -235,6 +355,10 @@ h3 center {
 	width: 730px;
 	margin: 0;
 */
+}
+
+#catalog_itemscontainer_products_cats table {
+	margin-left: 18px;
 }
 
 .catalog_itemscontainer_products_cats_top {
@@ -254,6 +378,7 @@ h3 center {
 }
 
 .catalog_itemscontainer_products_top {
+	width: 579px;
 /*
 	width:730px;
 	height:0px;
@@ -665,6 +790,13 @@ background: rgb(255,255,255);
 /* add other styles to match all your blocks, if needed */
 
 #catalog_menulinks h3 {
+	
+	color: #e38a22;
+	padding: 25px 0 15px 15px;
+	font-size: 18px;
+	border-bottom: 1px solid #e38a22;
+	margin-bottom: 15px;
+	
 /*
 	height:auto;
 	font:bold 20px Arial, Helvetica, sans-serif !important;
@@ -690,6 +822,11 @@ background: rgb(255,255,255);
 }
 
 #catalog_menulinks a {
+	padding: 5px 0 5px 15px;
+	color: #444444;
+	text-decoration: none;
+	display: block;
+	width: 100%;
 /*
 	font-family: Arial, sans-serif;
 	font-size: 14px;
@@ -698,8 +835,13 @@ background: rgb(255,255,255);
 	line-height:22px;
 */
 }
-
-#catalog_menulinks a:hover {}
+#catalog_menulinks a:hover {
+	color: #fff;
+}
+.catalog_menulinks_subcategorylinks {
+	font-size: 13px;
+	padding-left: 20px!important;
+}
 
 #catalog_menulinks ul {
 /*
@@ -708,6 +850,26 @@ background: rgb(255,255,255);
 	width:auto;
 	list-style-type:none;
 */
+}
+
+#catalog_menulinks ul:hover { color: #fff; }
+
+#catalog_menulinks li {
+	font-size: 14px;
+	margin: 5px 0;
+}
+
+#catalog_menulinks li:hover {
+	background: #e4781a; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2U0NzgxYSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNjNjU3M2IiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top, #e4781a 0%, #c6573b 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e4781a), color-stop(100%,#c6573b)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #e4781a 0%,#c6573b 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #e4781a 0%,#c6573b 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #e4781a 0%,#c6573b 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #e4781a 0%,#c6573b 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4781a', endColorstr='#c6573b',GradientType=0 ); /* IE6-8 */
 }
 
 #catalog_menulinks ul li a, #catalog_menulinks ul li a:visited {
@@ -750,6 +912,9 @@ background: rgb(255,255,255);
 }
 
 .catalog_topbar_body hr {
+
+	display: none!important;
+	
 /*
 	margin-right:20px;
 	margin-top:20px;
@@ -758,6 +923,9 @@ background: rgb(255,255,255);
 }
 
 .catalog_topbar_rcorner {
+	
+	display: none;
+
 /*
 	-moz-background-clip:border;
 	-moz-background-inline-policy:continuous;
@@ -777,12 +945,19 @@ background: rgb(255,255,255);
 }
 
 .catalog_topbar_body {
+
+	position: absolute;
+	top: -60px;
+	left: -1px;
+
 /*
 	padding:0px 20px 5px 20px;
 	color:#000000;
 */
 }
-
+#catalog_search_catalog {
+	display: none!important;
+}
 .catalog_textinput {
  /*
    -moz-border-radius: 3px 3px 3px 3px;
@@ -823,10 +998,25 @@ background: rgb(255,255,255);
 }
 
 .catalog_topbar_btm_corners {
+	display: none;
+	position: absolute;
+	top: -60px;
+	background-color: #7a637a;
+	left: -1px;
+	min-height: 50px;
+	z-index: 100;
+	color: #fff;
+	font-size: 14px;
+	line-height: 25px;
+
 /*
 	height:10px;
 	width:730px;
 */
+}
+
+#user_reg_div, #catalog_topbar_cart {
+	display: none!important;
 }
 
 .catalog_topbar_btm_corners p {
@@ -843,6 +1033,15 @@ background: rgb(255,255,255);
 /* -------------- START PRODUCTS CATEGORIES STYLES ------------------ */
 
 .catalog_product {
+	
+	background-image: url(http://www.qualitysigndesigner.com/assets/img/backgrounds/catalog_bkg.png);
+	background-repeat: no-repeat;
+	background-position: top;
+	text-align: center;
+	padding: 0px;
+	width: 275px;
+	padding-top: 35px!important;
+	padding-bottom: 25px!important;
 /*
 	text-align: center;
 	padding: 0px;
@@ -859,6 +1058,13 @@ background: rgb(255,255,255);
 }
 
 .catalog_product a, .catalog_product a:visited {
+
+
+	color: #e38a22;
+	text-decoration: none;
+	margin-bottom: 5px!important;
+	display: block;
+
 /*
 	font-family: Verdana, Arial, Helvetica,sans-serif;
 	font-size: 12px;
@@ -882,6 +1088,18 @@ background: rgb(255,255,255);
 /* -------------- START PRODUCTS LISTING STYLES ------------------ */
 
 .catalog_product_item {
+
+
+	background-image: url(http://www.qualitysigndesigner.com/assets/img/backgrounds/catalog_bkg.png);
+	background-repeat: no-repeat;
+	background-position: top;
+	text-align: center;
+	padding: 0px;
+	width: 275px;
+	padding-top: 35px!important;
+	padding-bottom: 25px!important;
+
+
 /*
 	background:#FFFFFF;
 	border:#b0b0b0 1px solid;
@@ -894,6 +1112,11 @@ background: rgb(255,255,255);
 }
 
 #catalog_maincontents table p img {
+
+	position: absolute;
+	top: 25px;
+	right: 25px;
+
 	/*margin: 10px;*/
         /*
 margin: 0important;
@@ -902,6 +1125,13 @@ margin: 0important;
 }
 
 .catalog_product_item a, .catalog_product_item a:visited {
+	
+	color: #e38a22;
+	text-decoration: none;
+	margin-bottom: 5px!important;
+	display: block;
+	
+
 /*
 	font-family: Verdana,Arial,Helvetica,sans-serif;
 	font-size: 12px;
@@ -912,6 +1142,9 @@ margin: 0important;
 }
 
 .catalog_product_item img {
+
+	
+
 /*
 	cursor: pointer;
 	border: none;
@@ -922,6 +1155,16 @@ margin: 0important;
 }
 
 #catalog_maincontents table p {
+
+	
+	/*
+font-size: 14px;
+	line-height: 25px;
+	width: 850px;
+*/
+
+
+
 /*
 	white-space:normal;
 	text-align:center;
@@ -930,6 +1173,19 @@ margin: 0important;
 }
 
 .catalog_product_item p {
+
+	display: none;
+
+/*
+	background-image: url(http://www.qualitysigndesigner.com/assets/img/backgrounds/product_description_bkg.png);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	text-align: center;
+	padding: 0px;
+	width: 275px;
+	padding-top: 35px!important;
+	padding-bottom: 50px!important;
+*/
 /*
 	font-family: Verdana,Arial,Helvetica,sans-serif;
 	font-size: 11px;
@@ -944,6 +1200,12 @@ margin: 0important;
 /* -------------- START SIZES STYLES ------------------ */
 
 .catalog_product_size {
+
+	position: relative;
+	width: 850px;
+	padding: 25px;
+	text-align: center;
+
 /*
 	text-align: center;
 	padding: 10px;
@@ -952,6 +1214,9 @@ margin: 0important;
 }
 
 .catalog_product_size a {
+
+	display: none;
+
 /*
 	font-family: Verdana,Arial,Helvetica,sans-serif;
 	font-size: 13px;
@@ -991,6 +1256,11 @@ margin: 0important;
 }
 
 #catalog_itemscontainer_sizes_longdescription p {
+
+	font-size: 14px;
+	line-height: 25px;
+	width: 800px;
+
 /*
 	margin: 0;
 	padding: 10px 10px 10px 10px;

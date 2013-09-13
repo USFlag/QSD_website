@@ -5,24 +5,24 @@ $(document).ready(function(){
 	// Social Button Roll Over
 
 	$("li.facebook a img").on("mouseenter", function () {
-	   $("li.facebook a img").attr( "src", "assets/img/icons/facebook_icon_hover.png" );
+	   $("li.facebook a img").attr( "src", "http://www.qualitysigndesigner.com/assets/img/icons/facebook_icon_hover.png" );
 	});
 	$("li.facebook a img").on("mouseleave", function () {
-	   $("li.facebook a img").attr( "src", "assets/img/icons/facebook_icon.png" );
+	   $("li.facebook a img").attr( "src", "http://www.qualitysigndesigner.com/assets/img/icons/facebook_icon.png" );
 	});
 	$("li.pintrest a img").on("mouseenter", function () {
-	   $("li.pintrest a img").attr( "src", "assets/img/icons/pintrest_icon_hover.png" );
+	   $("li.pintrest a img").attr( "src", "http://www.qualitysigndesigner.com/assets/img/icons/pintrest_icon_hover.png" );
 	});
 	$("li.pintrest a img").on("mouseleave", function () {
-	   $("li.pintrest a img").attr( "src", "assets/img/icons/pintrest_icon.png" );
+	   $("li.pintrest a img").attr( "src", "http://www.qualitysigndesigner.com/assets/img/icons/pintrest_icon.png" );
 	});
 	
 	// Close Roll Over
 	$("a.hide-video img").on("mouseenter", function () {
-	   $("a.hide-video img").attr( "src", "assets/img/icons/close_icon.png" );
+	   $("a.hide-video img").attr( "src", "http://www.qualitysigndesigner.com/assets/img/icons/close_icon.png" );
 	});
 	$("a.hide-video img").on("mouseleave", function () {
-	   $("a.hide-video img").attr( "src", "assets/img/icons/close_icon_hover.png" );
+	   $("a.hide-video img").attr( "src", "http://www.qualitysigndesigner.com/assets/img/icons/close_icon_hover.png" );
 	});
 	
 	
