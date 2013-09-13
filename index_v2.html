@@ -23,19 +23,8 @@
 		    itemWidth: 193,
 		    maxItems: 4
 		  });
-		  var myPlayer = videojs("qsd_video");
-		  $(".explainer-video-btn").on("click", function(){
-				$(".video-js .vjs-tech").attr( "position", "static" );		
-				$(".explainer-video").slideDown(1000);
-				myPlayer.play();
-				/* myPlayer.requestFullScreen(); */
-		  });
-		  $(".hide-video").on("click", function(){
-				myPlayer.pause();
-				$(".explainer-video").hide(3000);
-				$(".hide-video").attr( "display", "none" );
-		  });
 		});
+		
 	</script>
 	<style type="text/css">
 		.explainer-video { position: absolute; display: none; width: 1102px; left: -1px; top: 1px; z-index: 1000; }
@@ -44,6 +33,11 @@
 	  .vjs-default-skin { color: #e8e5e1!important; }
 	  .vjs-play-progress, .vjs-volume-level { background-color: #ed9818!important; }
 	  .vjs-control-bar { font-size: 118%!important; width: 1101px; left: -1px; }
+	  .vjs-control-bar-toggle { font-size: 118%!important; width: 100%;  }
+	  .vjs-default-skin .vjs-big-play-button {
+		  top: 25em!important;
+		  left: 48em!important;
+	  }
 	  .video-js .vjs-tech {
 		position: static!important;
 		top: 0;
@@ -52,7 +46,8 @@
 		height: 619px;
 		}
 		.video-js { background-color: transparent!important; }
-		.hide-video { position: absolute; top: 750px; left: 300px; }
+		.hide-video { color: #e38a22; position: absolute; top: 10px; left: 1050px; }
+		.hide-video img { width: 35px; height: 35px; }
 	</style>
 	<title>Quality Sign Designer</title>
 </head>
@@ -60,10 +55,10 @@
 	<h1 class="hide">Quality Sign Designer</h1>
 	<div id="page-container">
 	<section class="explainer-video">
-		<video id="qsd_video" class="video-js vjs-default-skin" controls preload="auto" poster="my_video_poster.png" data-setup="{}">
+		<video id="qsd_video" class="video-js vjs-default-skin" controls preload="auto" data-setup="{}">
 			<source src="assets/video/QSD_Promo_v1.mp4" type='video/mp4'>
 		</video>
-		<a class="hide-video" href="#">HIDE VIDEO</a>
+		<a class="hide-video" href="#"><img src="assets/img/icons/close_icon_hover.png" alt="close_icon" width="94" height="93"></a>
 	</section><!--END class="explainer-video"-->
 	<!--======================================================-->
 	<!--Page Header-->
