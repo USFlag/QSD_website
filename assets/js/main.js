@@ -5,24 +5,60 @@ $(document).ready(function(){
 	// Social Button Roll Over
 
 	$("li.facebook a img").on("mouseenter", function () {
-	   $("li.facebook a img").attr( "src", "assets/img/icons/facebook_icon_hover.png" );
+	   $("li.facebook a img").attr( "src", "http://www.qualitysigndesigner.com/assets/img/icons/facebook_icon_hover.png" );
 	});
 	$("li.facebook a img").on("mouseleave", function () {
-	   $("li.facebook a img").attr( "src", "assets/img/icons/facebook_icon.png" );
+	   $("li.facebook a img").attr( "src", "http://www.qualitysigndesigner.com/assets/img/icons/facebook_icon.png" );
 	});
 	$("li.pintrest a img").on("mouseenter", function () {
-	   $("li.pintrest a img").attr( "src", "assets/img/icons/pintrest_icon_hover.png" );
+	   $("li.pintrest a img").attr( "src", "http://www.qualitysigndesigner.com/assets/img/icons/pintrest_icon_hover.png" );
 	});
 	$("li.pintrest a img").on("mouseleave", function () {
-	   $("li.pintrest a img").attr( "src", "assets/img/icons/pintrest_icon.png" );
+	   $("li.pintrest a img").attr( "src", "http://www.qualitysigndesigner.com/assets/img/icons/pintrest_icon.png" );
 	});
 	
 	// Close Roll Over
 	$("a.hide-video img").on("mouseenter", function () {
-	   $("a.hide-video img").attr( "src", "assets/img/icons/close_icon.png" );
+	   $("a.hide-video img").attr( "src", "http://www.qualitysigndesigner.com/assets/img/icons/close_icon.png" );
 	});
 	$("a.hide-video img").on("mouseleave", function () {
-	   $("a.hide-video img").attr( "src", "assets/img/icons/close_icon_hover.png" );
+	   $("a.hide-video img").attr( "src", "http://www.qualitysigndesigner.com/assets/img/icons/close_icon_hover.png" );
+	});
+	
+	// Flag Rollovers
+	$(".flag-chart .feather-dancer-17 img").on("mouseenter", function () {
+	   $(".flag-chart .feather-dancer-17 img").attr( "src", "http://www.qualitysigndesigner.com/assets/img/buttons/17_feather_dancer_hover.png" );
+	});
+	$(".flag-chart .feather-dancer-17 img").on("mouseleave", function () {
+	   $(".flag-chart .feather-dancer-17 img").attr( "src", "http://www.qualitysigndesigner.com/assets/img/buttons/17_feather_dancer.png" );
+	});
+	
+	$(".flag-chart .feather-dancer-13 img").on("mouseenter", function () {
+	   $(".flag-chart .feather-dancer-13 img").attr( "src", "http://www.qualitysigndesigner.com/assets/img/buttons/13_feather_dancer_hover.png" );
+	});
+	$(".flag-chart .feather-dancer-13 img").on("mouseleave", function () {
+	   $(".flag-chart .feather-dancer-13 img").attr( "src", "http://www.qualitysigndesigner.com/assets/img/buttons/13_feather_dancer.png" );
+	});
+	
+	$(".flag-chart .kahuna-17 img").on("mouseenter", function () {
+	   $(".flag-chart .kahuna-17 img").attr( "src", "http://www.qualitysigndesigner.com/assets/img/buttons/17_kahuna_hover.png" );
+	});
+	$(".flag-chart .kahuna-17 img").on("mouseleave", function () {
+	   $(".flag-chart .kahuna-17 img").attr( "src", "http://www.qualitysigndesigner.com/assets/img/buttons/17_kahuna.png" );
+	});
+	
+	$(".flag-chart .kahuna-13 img").on("mouseenter", function () {
+	   $(".flag-chart .kahuna-13 img").attr( "src", "http://www.qualitysigndesigner.com/assets/img/buttons/13_kahuna_hover.png" );
+	});
+	$(".flag-chart .kahuna-13 img").on("mouseleave", function () {
+	   $(".flag-chart .kahuna-13 img").attr( "src", "http://www.qualitysigndesigner.com/assets/img/buttons/13_kahuna.png" );
+	});
+	
+	$(".flag-chart .horizontal img").on("mouseenter", function () {
+	   $(".flag-chart .horizontal img").attr( "src", "http://www.qualitysigndesigner.com/assets/img/buttons/horizontal_flag_hover.png" );
+	});
+	$(".flag-chart .horizontal img").on("mouseleave", function () {
+	   $(".flag-chart .horizontal img").attr( "src", "http://www.qualitysigndesigner.com/assets/img/buttons/horizontal_flag.png" );
 	});
 	
 	

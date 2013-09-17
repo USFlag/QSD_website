@@ -289,7 +289,7 @@ border-top: 1px solid #7a637a;
 #page-footer a { color: #787878; }
 #page-footer a:hover { color: #e38a22; }
 #page-footer .content-container {
-	height: 410px;
+	/* height: 410px; */
 }
 #page-footer .legal {
 	height: 60px;
@@ -335,6 +335,9 @@ border-top: 1px solid #7a637a;
 	text-transform: uppercase;
 }
 #page-footer .marketing {
+	background-image: url(../img/dividers/footer_divider.png);
+	background-repeat: no-repeat;
+	background-position: left top;
 	float: left;
 	width: 400px;
 }
