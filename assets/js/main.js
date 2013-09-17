@@ -2,6 +2,10 @@
 // QSD Master JS Script
 $(document).ready(function(){
 	
+	// General
+	$("#super_container").attr("style", "margin-top: 0!important;");
+	
+	
 	// Social Button Roll Over
 
 	$("li.facebook a img").on("mouseenter", function () {

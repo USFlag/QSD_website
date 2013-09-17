@@ -254,7 +254,7 @@ border-top: 1px solid #7a637a;
 	font-size: 16px; 
 }
 #page-body .welcome {
-	padding: 45px;
+	padding: 45px 45px 80px 45px;
 }
 #page-body .welcome h2 { 
 	font-size: 35px;
@@ -337,7 +337,7 @@ border-top: 1px solid #7a637a;
 #page-footer .marketing {
 	background-image: url(../img/dividers/footer_divider.png);
 	background-repeat: no-repeat;
-	background-position: left top;
+	background-position: -1px top;
 	float: left;
 	width: 400px;
 }

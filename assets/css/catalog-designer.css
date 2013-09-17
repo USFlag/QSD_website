@@ -9,7 +9,9 @@ body {
 
 /*Design Tool*/
 #super_container {
-	margin-top: 30px!important;
+	margin-top: 0!important;
+	margin: 30px auto;
+	width: 1100px;
 }
 
 
@@ -55,8 +57,7 @@ background: rgb(255,255,255); /* Old browsers */
 }
 	
 #generating_progressbar, #unitgenerating_progressbar, #design_vrml_progressbar {
-	/*
-margin:0 auto;
+	margin:0 auto;
 	position: fixed; 
 	left: 30%;
 	top:27%;
@@ -69,33 +70,41 @@ margin:0 auto;
 	font:normal 14px Arial, Helvetica, sans-serif;
         color:#000000 !important;
 	background:#E6E6E6 url(http://www.qualitydealersupply.com/sg_mockup-white-final_media/main-splash.jpg) no-repeat -230px 0px;
-*/
 }
 	
 #catalog_instantpricing_body {
 /* 	color:#000000; */
 }
-	
+#floatingdiv {
+
+}	
 #tabs_floatingdiv_header {
+	background: #e38a22!important;
 /* 	background:#39549f !important; */
 }
 	
 #tabs_floatingdiv {
-/*
-	border: 5px solid #39549f !important;
+
+	border: 5px solid #7a6378 !important;
 	box-shadow: 3px 3px 20px #000000 !important;
 	-moz-box-shadow: 3px 3px 20px #000000 !important;
 	-webkit-box-shadow: 3px 3px 20px #000000 !important;
 /* For IE 8 */
-/* 	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=30, Direction=135, Color='#000000')"; */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=30, Direction=135, Color='#000000')";
 /* For IE 5.5 - 7 */
-/*	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=30, Direction=135, Color='#000000');
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=30, Direction=135, Color='#000000');
 	font:normal 14px Arial, Helvetica, sans-serif !important;
 	background:#FFFFFF !important;
 	border-radius:8px;
 	-moz-border-radius:8px;
 	-webkit-border-radius:8px;
-*/
+	height: 600px!important;
+	width: 1000px!important;
+}
+
+.tabs_floatingdiv_extclass_cliparts {
+	height: 600px!important;
+	width: 1000px!important;
 }
 	
 #catalog_menulinks  #catalog_menulinks_container_body6 h3 ,#catalog_menulinks #catalog_menulinks_container_body7 h3 {
@@ -1076,6 +1085,8 @@ background: rgb(255,255,255);
 }
 
 .catalog_product img {
+
+	cursor: pointer;
 /*
 	border:medium none;
 	cursor:pointer;
@@ -1143,7 +1154,7 @@ margin: 0important;
 
 .catalog_product_item img {
 
-	
+	cursor: pointer;
 
 /*
 	cursor: pointer;
@@ -1829,22 +1840,37 @@ td.catalog_templates {
 
 
 
+#imageContainer {
+	position: relative;
+	padding: 0px;
+	top: -50px!important;
+}
 
+#toplinks_div, #usertabs_second_container {
+	display: none;
+/*
+	font: normal 14px Verdana, Arial, Helvetica, sans-serif;
+	color: #000000 !important;
+	text-decoration: none !important;
+	height: 25px;
+	position: absolute;
+	top: 365px;
+	margin-left: 880px;
+*/
+}
 
+#allpanels_controlbox {
+	width: 460px !important;
+	position: absolute;
+	top: 300px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+#elements_sizectrl_s2 {
+	width: 580px;
+	padding-top: 60px;
+	position: relative;
+	left: 18px;
+}
 
 
 
