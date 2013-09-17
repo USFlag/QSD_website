@@ -144,14 +144,14 @@ border-top: 1px solid #7a637a;
 }
 #page-header .header-body .cta .shipping p {
 	color: #e38a22;
-	font-size: 30px;
+	font-size: 30px!important;
 	line-height: 25px;
 	margin-top: 15px;
 	width: 300px;
 }
 #page-header .header-body .cta .shipping p span {
 	color: #444444;
-	font-size: 20px;
+	font-size: 20px!important;
 }
 #page-header .header-body .cta .contact {
 	float: left;
@@ -159,7 +159,7 @@ border-top: 1px solid #7a637a;
 }
 #page-header .header-body .cta .contact p.phone {
 	color: #e38a22;
-	font-size: 30px;
+	font-size: 30px!important;
 	margin: 12px 0 6px 0;
 }
 #page-header .header-body .cta .contact ul, #page-header .header-body .cta .contact li { 

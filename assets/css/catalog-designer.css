@@ -333,7 +333,7 @@ h3 center {
 	font-size: 14px;
 }
 .catalog_topbar_links br {
-	display: none;
+	/* display: none; */
 }
 
 #catalog_itemscontainer_products_cats_breaker {
@@ -956,7 +956,7 @@ background: rgb(255,255,255);
 .catalog_topbar_body {
 
 	position: absolute;
-	top: -60px;
+	top: -40px;
 	left: -1px;
 
 /*
