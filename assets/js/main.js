@@ -93,14 +93,13 @@ $(document).ready(function(){
 	  $(".explainer-video-btn").on("click", function(){
 		 	//$(".video-js .vjs-tech").attr( "position", "static" );		
 		 	$(".explainer-video").slideDown(1000);
-		 		myPlayer.play();
 		 	
 		 	var startPlayAfter25 = function(){
 			 	//console.log("It Worked!");
 			 	var howMuchIsDownloaded = myPlayer.bufferedPercent();
 			 	//console.log(howMuchIsDownloaded);
 			 	if(howMuchIsDownloaded > 0.25){
-				 	myPlayer.pause();
+				 	myPlayer.play();
 			 	}
 		 	}
 		 	
