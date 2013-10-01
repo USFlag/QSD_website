@@ -334,6 +334,7 @@ h3 center {
 }
 .catalog_topbar_links br {
 	/* display: none; */
+
 }
 
 #catalog_itemscontainer_products_cats_breaker {
@@ -922,7 +923,7 @@ background: rgb(255,255,255);
 
 .catalog_topbar_body hr {
 
-	display: none!important;
+	/* display: none!important; */
 	
 /*
 	margin-right:20px;

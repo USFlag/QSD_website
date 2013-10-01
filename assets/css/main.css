@@ -45,6 +45,7 @@ h3 { color: #e38a22; font-size: 22.5px; }
 	position: relative;
 	width: 1004px; /*-->Total width including padding is 1024<--*/
 }
+.purple-text { color: #7a637a; }
 .hide { position: absolute !important; top: -9999px !important; left: -9999px !important; } 
 .divider-lg { 
 	background-image: url(../img/dividers/main_divider.png); 
@@ -79,6 +80,7 @@ border-top-right-radius: 10px;
 	height: 175px;
 	width: 100%;
 }
+#page-header a { font-size: 13px!important; }
 #page-header .utility-nav {
 	background-color: #7a637a;
 	border-bottom: 3px solid #fff;
@@ -166,15 +168,15 @@ border-top: 1px solid #7a637a;
 	float: left;
 	font-size: 14px;   
 }
-#page-header .header-body .cta .contact .email {
+#page-header .header-body .cta .contact li.email {
 	background-image: url(../img/icons/email_icon.png);
 	background-repeat: no-repeat;
 	background-position: 0px 1px;
-	margin-right: 32px;
+	margin-right: 15px;
 	padding-left: 30px;
 	height: 25px;
 }
-#page-header .header-body .cta .contact .live-chat {
+#page-header .header-body .cta .contact li.live-chat {
 	background-image: url(../img/icons/live_chat_icon.png);
 	background-repeat: no-repeat;
 	background-position: 0px -1px;
@@ -246,12 +248,37 @@ border-top: 1px solid #7a637a;
 #page-body .design-your-own li.start-designing { margin: 0 30px 0 0; left: 365px; }
 #page-body .design-your-own li.add-to-cart { margin: 0 30px 0 0; left: 755px; }
 #page-body .featured-catalog { margin: 30px 0 65px 0; }
+#page-body .featured-catalog .content-container {
+	margin: 0 auto;
+	width: 1025px;
+}
 #page-body .featured-catalog .flexslider h3, #page-body .featured-catalog .flexslider p { 
+	/*
+
 	margin: 15px 0; 
-	text-align: center; 
+	text-align: center;
+	
+*/ 
 }
 #page-body .featured-catalog .flexslider p a { 
-	font-size: 16px; 
+	/*
+
+	font-size: 16px;
+	
+*/ 
+}
+.flexslider {
+	padding: 30px 0 60px 0;
+}
+.flexslider h3 {
+	margin-left: 30px;
+	margin-bottom: 30px;
+}
+#page-body .featured-catalog .flexslider .slider-row {
+	float: left;
+	margin: 0 2px;
+	text-align: center;
+	width: 250px;
 }
 #page-body .welcome {
 	padding: 45px 45px 80px 45px;
@@ -346,15 +373,45 @@ border-top: 1px solid #7a637a;
 
 
 
+/*--------------------------------*/
+/*--->      PAGE STYLES       <---*/
+/*--------------------------------*/
 
 
+#about, #contact, #faqs {
+	color: #444444;
+	font-size: 14px;
+	padding: 30px 0;
+	line-height: 25px;
+}
+#about h2, #contact h2, #faqs h2 {
+	margin-bottom: 15px;
+}
+#faqs h3 {
+	color: #7a637a;
+	font-size: 22px;
+}
+#about ul {
+	margin: 15px;
+}
+#about ul li, #contact ul li, #faqs ul li {
+	background-image: url(../img/icons/right_bullet_icon.png);
+	background-repeat: no-repeat;
+	background-position: 0px 7px;
+	margin-bottom: 5px;
+	padding-left: 15px;
+}
+#faqs ul li {
+	margin-bottom: 30px;
+}
+#about ul li ul, #contact ul li ul, #faqs ul li ul {
+	margin: 15px;
+}
+#about ul li ul li, #contact ul li ul li, #faqs ul li ul li {
+	color: #7a637a;
+}
 
-
-
-
-
-
-
+#contact p { margin-bottom: 15px; }
 
 
 

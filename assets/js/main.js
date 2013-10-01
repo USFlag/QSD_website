@@ -91,6 +91,10 @@ $(document).ready(function(){
 	
 	$('.catalog_topbar_body').text(pipe);	
 	
+	// Replace <br /> and > with >>
+	
+	$("br").attr( "style", "display:block!important;" );
+	
 	
 });
 
