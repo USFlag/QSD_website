@@ -1,0 +1,93 @@
+<script type="text/javascript" src="../lib/jQuery/jquery-1.9.1.min.js"></script>
+<script src="../lib/SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+<link href="../css/reset.css" rel="stylesheet" type="text/css" />
+<link href="../css/main.css" rel="stylesheet" type="text/css" />
+<link href="../lib/SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
+<style>
+	.main-nav a {
+		font-size: 13px!important;
+	}
+	.main-nav li span {
+		margin: 15px;
+	}
+</style>
+<nav class="main-nav">
+	<div style="margin: 30px auto; width: 900px;">
+		<ul id="MenuBar1" class="MenuBarHorizontal">
+			<li><a href="#">Home</a><span>|</span></li>
+		   <li id="custom-banners-container"><a id="drop-down-custom-banners-link" class="MenuBarItemSubmenu" href="#">Custom Banners</a>
+		      <ul id="drop-down-custom-banners">
+		         <li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/index.php&tng=Y3BpPTYxNTE5JmNwaXM9MjcxMDI5JmNwaXNfdz03MiZjcGlzX2g9MzYmY3RpZz0w">Design Your Own</a></li>
+		         <li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTE2Mjk=">Fireworks Templates</a></li>
+		         <li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTExMjQ=">Slogan Templates</a></li>
+		         <li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTExMjA=">Auto Dealer Templates</a></li>
+		         <li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTExMTY=">Real Estate Templates</a></li>
+		         <li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTExMTk=">Business Templates</a></li>
+		         <li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTExMjE=">Sports Templates</a></li>
+		         <li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTExMjI=">Special Events</a></li>
+		         <li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTExMjM=">School Templates</a></li>
+		         <li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTExMjU=">Religious Templates</a></li>
+		      </ul>
+		      <span>|</span>
+		   </li>
+		   <li id="custom-flags-container"><a id="drop-down-custom-flags-link" class="MenuBarItemSubmenu" href="#">Custom Flags</a>
+		      <ul id="drop-down-custom-flags">
+		         <li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTE4ODE=">13ft Feather Dancers</a></li>
+		         <li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTE4Nzk=">17ft Feather Dancers</a></li>
+		         <li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTE4OTI=">13ft Kahuna Flags</a></li>
+		         <li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTE4ODI=">17ft Kahuna Flags</a></li>
+		         <li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTE4MzY=">Horizontal Flags</a></li>
+		      </ul>
+		      <span>|</span>
+		   </li>
+		   <li id="custom-signs-container"><a id="drop-down-custom-signs-link" class="MenuBarItemSubmenu" href="#">Custom Yard Signs</a>
+		   	<ul id="drop-down-custom-signs">
+		      	<li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/index.php&tng=Y3BpPTU5OTM0JmNwaXM9MjY2NzYyJmNwaXNfdz0yNCZjcGlzX2g9MTgmY3RpZz0w">Design Your Own</a></li>
+		         <li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTE0OTA=">Slogan Templates</a></li>
+		         <li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTE3MzE=">Business Templates</a></li>
+		         <li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTE3NDE=">Political Campaigns</a></li>
+		      </ul>
+		      <span>|</span>
+		   </li>
+		   <li><a href="http://www.qualitysigndesigner.com/art.html">Art Requirements</a><span>|</span></li>
+		   <li><a href="https://www.youtube.com/user/QualitySignDesigner">Video Tutorials</a><span>|</span></li>
+		   <li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/ext_cart">Cart</a></li>
+		</ul>
+	</div>
+</nav><!--END class="main-nav"-->
+<script type="text/javascript">
+	var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"../lib/SpryAssets/SpryMenuBarDownHover.gif", imgRight:"../lib/SpryAssets/SpryMenuBarRightHover.gif"});
+</script>
+<script>
+
+	$("ul.MenuBarHorizontal li ul#drop-down-custom-banners").on("mouseover", function(){
+		$("ul.MenuBarHorizontal li a#drop-down-custom-banners-link").css("background-color", "#da681f");
+		$("ul.MenuBarHorizontal li a#drop-down-custom-banners-link").css("border-top-left-radius", "5px");
+		$("ul.MenuBarHorizontal li a#drop-down-custom-banners-link").css("border-top-right-radius", "5px");
+		$("ul.MenuBarHorizontal li a#drop-down-custom-banners-link").css("color", "#fff");
+	});
+	$("ul.MenuBarHorizontal li ul#drop-down-custom-banners").on("mouseout", function(){
+		$("ul.MenuBarHorizontal li a#drop-down-custom-banners-link").delay( 8000 ).removeAttr( "style" );
+	});
+	
+	$("ul.MenuBarHorizontal li ul#drop-down-custom-flags").on("mouseover", function(){
+		$("ul.MenuBarHorizontal li a#drop-down-custom-flags-link").css("background-color", "#da681f");
+		$("ul.MenuBarHorizontal li a#drop-down-custom-flags-link").css("border-top-left-radius", "5px");
+		$("ul.MenuBarHorizontal li a#drop-down-custom-flags-link").css("border-top-right-radius", "5px");
+		$("ul.MenuBarHorizontal li a#drop-down-custom-flags-link").css("color", "#fff");
+	});
+	$("ul.MenuBarHorizontal li ul#drop-down-custom-flags").on("mouseout", function(){
+		$("ul.MenuBarHorizontal li a#drop-down-custom-flags-link").delay( 8000 ).removeAttr( "style" );
+	});
+	
+	$("ul.MenuBarHorizontal li ul#drop-down-custom-signs").on("mouseover", function(){
+		$("ul.MenuBarHorizontal li a#drop-down-custom-signs-link").css("background-color", "#da681f");
+		$("ul.MenuBarHorizontal li a#drop-down-custom-signs-link").css("border-top-left-radius", "5px");
+		$("ul.MenuBarHorizontal li a#drop-down-custom-signs-link").css("border-top-right-radius", "5px");
+		$("ul.MenuBarHorizontal li a#drop-down-custom-signs-link").css("color", "#fff");
+	});
+	$("ul.MenuBarHorizontal li ul#drop-down-custom-signs").on("mouseout", function(){
+		$("ul.MenuBarHorizontal li a#drop-down-custom-signs-link").delay( 8000 ).removeAttr( "style" );
+	});  
+</script>
+
