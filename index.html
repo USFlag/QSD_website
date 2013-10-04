@@ -14,6 +14,7 @@
 	<script type="text/javascript" src="assets/lib/SpryAssets/SpryMenuBar.js"></script>
 	<script type="text/javascript" src="assets/lib/jQuery/jquery-1.9.1.min.js"></script>
 	<script type="text/javascript" src="assets/lib/flex-slider/jquery.flexslider-min.js"></script>
+	<script type="text/javascript" src="http://a.vimeocdn.com/js/froogaloop2.min.js"></script>
 	<script type="text/javascript" src="assets/js/main.js"></script>
 	<script>
 		$(window).load(function() {
@@ -42,25 +43,16 @@
 	  })();
 	
 	</script>
-	
-	<style type="text/css">
-		.explainer-video { position: absolute; display: none; width: 1102px; left: -1px; top: 1px; z-index: 1000; }
-		video { /* width: 100%!important; height: auto!important; */ }
-		#qsd_video { width: 100%!important; height: auto!important; }
-		.hide-video { color: #e38a22; position: absolute; top: 10px; left: 1050px; }
-		.hide-video img { width: 35px; height: 35px; }
-	</style>
 	<title>Quality Sign Designer</title>
 </head>
 <body>
 	<h1 class="hide">Quality Sign Designer</h1>
 	<div id="page-container">
-	<section class="explainer-video">
-		<video id="qsd_video">
-			<iframe src="//player.vimeo.com/video/74712057" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-		</video>
+	<section id="qsd-video">
+		<!-- <iframe src="//player.vimeo.com/video/74712057" width="1102" height="615" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
+		<iframe id="player1" src="//player.vimeo.com/video/74712057?api=1&player_id=player1" width="1102" height="615" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 		<a class="hide-video" href="#"><img src="assets/img/icons/close_icon_hover.png" alt="close_icon" width="94" height="93"></a>
-	</section><!--END class="explainer-video"-->
+	</section>
 	<!--======================================================-->
 	<!--Page Header-->
 		<header id="page-header">
