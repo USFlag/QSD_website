@@ -21,14 +21,6 @@ $(document).ready(function(){
 	   $(this).attr( "src", "http://www.qualitysigndesigner.com/assets/img/icons/pintrest_icon.png" );
 	});
 	
-	// Close Video Roll Over
-	$("a.hide-video img").on("mouseenter", function () {
-	   $(this).attr( "src", "http://www.qualitysigndesigner.com/assets/img/icons/close_icon.png" );
-	});
-	$("a.hide-video img").on("mouseleave", function () {
-	   $(this).attr( "src", "http://www.qualitysigndesigner.com/assets/img/icons/close_icon_hover.png" );
-	});
-	
 	// Flag Rollovers
 	$(".flag-chart .feather-dancer-17 img").on("mouseenter", function () {
 	   $(this).attr( "src", "http://www.qualitysigndesigner.com/assets/img/buttons/17_feather_dancer_hover.png" );
@@ -83,7 +75,13 @@ $(document).ready(function(){
 	});
 	
 
-	
+	// Close Video Roll Over
+	$("a.hide-video img").on("mouseenter", function () {
+	   $(this).attr( "src", "http://www.qualitysigndesigner.com/assets/img/icons/close_icon.png" );
+	});
+	$("a.hide-video img").on("mouseleave", function () {
+	   $(this).attr( "src", "http://www.qualitysigndesigner.com/assets/img/icons/close_icon_hover.png" );
+	});
 	
 	
 	// Remove Pipe on Catalog Page
