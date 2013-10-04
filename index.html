@@ -8,15 +8,13 @@
 	<link href='http://fonts.googleapis.com/css?family=Droid+Sans|ABeeZee|Roboto:700,400,300,100|Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="assets/css/reset.css" />
 	<link rel="stylesheet" href="assets/lib/flex-slider/flexslider.css" />
-	<link href="http://vjs.zencdn.net/4.1/video-js.css" rel="stylesheet">
 	<link href="assets/lib/SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" />
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<script type="text/javascript" src="assets/lib/modernizr/modernizr.custom.45783.js"></script>
 	<script type="text/javascript" src="assets/lib/SpryAssets/SpryMenuBar.js"></script>
 	<script type="text/javascript" src="assets/lib/jQuery/jquery-1.9.1.min.js"></script>
 	<script type="text/javascript" src="assets/lib/flex-slider/jquery.flexslider-min.js"></script>
-	<script src="http://vjs.zencdn.net/4.1/video.js"></script>
-	<script src="assets/video/js/videojs.js"></script> 
+	<script type="text/javascript" src="http://a.vimeocdn.com/js/froogaloop2.min.js"></script>
 	<script type="text/javascript" src="assets/js/main.js"></script>
 	<script>
 		$(window).load(function() {
@@ -45,44 +43,16 @@
 	  })();
 	
 	</script>
-	
-	<style type="text/css">
-		.explainer-video { position: absolute; display: none; width: 1102px; left: -1px; top: 1px; z-index: 1000; }
-		video { /* width: 100%!important; height: auto!important; */ }
-		#qsd_video { width: 100%!important; height: auto!important; }
-	  .vjs-default-skin { color: #e8e5e1!important; }
-	  .vjs-play-progress, .vjs-volume-level { background-color: #ed9818!important; }
-	  .vjs-control-bar { font-size: 118%!important; width: 1101px; left: -1px; }
-	  .vjs-control-bar-toggle { font-size: 118%!important; width: 100%;  }
-	  .vjs-default-skin .vjs-big-play-button {
-		  top: 25em!important;
-		  left: 48em!important;
-	  }
-	  .video-js .vjs-tech {
-		position: static!important;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 619px;
-		}
-		.video-js { background-color: transparent!important; }
-		.hide-video { color: #e38a22; position: absolute; top: 10px; left: 1050px; }
-		.hide-video img { width: 35px; height: 35px; }
-	</style>
 	<title>Quality Sign Designer</title>
 </head>
 <body>
 	<h1 class="hide">Quality Sign Designer</h1>
 	<div id="page-container">
-	<section class="explainer-video">
-		<video id="qsd_video" class="video-js vjs-default-skin" controls preload="auto" data-setup="{}">
-			<source src="assets/video/QSD_Promo_FINAL_V2.ogg" type='video/ogg'>
-			<source src="assets/video/QSD_Promo_FINAL_V2.webm" type='video/webm'>
-			<source src="assets/video/QSD_Promo_v2.mp4" type='video/mp4'>
-			<source src="assets/video/QSD_Promo_FINAL_V2.flv" type='video/flv'>
-		</video>
+	<section id="qsd-video">
+		<!-- <iframe src="//player.vimeo.com/video/74712057" width="1102" height="615" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
+		<iframe id="player1" src="//player.vimeo.com/video/74712057?api=1&player_id=player1" width="1102" height="615" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 		<a class="hide-video" href="#"><img src="assets/img/icons/close_icon_hover.png" alt="close_icon" width="94" height="93"></a>
-	</section><!--END class="explainer-video"-->
+	</section>
 	<!--======================================================-->
 	<!--Page Header-->
 		<header id="page-header">
