@@ -1844,7 +1844,7 @@ td.catalog_templates {
 #imageContainer {
 	position: relative;
 	padding: 0px;
-	top: -50px!important;
+	top: -50px;
 }
 
 #toplinks_div, #usertabs_second_container {
