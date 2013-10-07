@@ -68,38 +68,6 @@ $(document).ready(function(){
 		 $("#qsd-video").hide(3000);
 	});
 	
-	// Vimeo Player API
-	var iframe = $('#player1')[0],
-    player = $f(iframe),
-    status = $('.status');
-
-		// When the player is ready, add listeners for pause, finish, and playProgress
-		player.addEvent('ready', function() {
-		    status.text('ready');
-		    
-		    player.addEvent('pause', onPause);
-		    player.addEvent('finish', onFinish);
-		    player.addEvent('playProgress', onPlayProgress);
-		});
-		
-		// Call the API when a button is pressed
-		$('a.hide-video img').bind('click', function() {
-		    player.api("pause");
-		});
-		
-		function onPause(id) {
-		    status.text('paused');
-		}
-		
-		function onFinish(id) {
-		    status.text('finished');
-		    $("#qsd-video").hide(3000);
-		}
-		
-		function onPlayProgress(data, id) {
-		    status.text(data.seconds + 's played');
-		}
-	
 	
 	// Video and Desing Now CTA BTN Rollovers
 	$(".start-designing-now a img").on("mouseenter", function () {
@@ -127,13 +95,15 @@ $(document).ready(function(){
 	
 	
 	// Remove Pipe on Catalog Page
-	var pipe = $('.catalog_topbar_body').text().replace("|", " ");
-	
-	$('.catalog_topbar_body').text(pipe);	
-	
+	var pipe = $('.catalog_topbar_body').html().replace("|", " ");
+	$('.catalog_topbar_body').html(pipe);	
+	console.log(pipe);
+
+
 	// Replace <br /> and > with >>
+	$('.catalog_topbar_links br').replaceWith(" > ");
 	
-	$("br").attr( "style", "display:block!important;" );
+	
 	
 	
 });

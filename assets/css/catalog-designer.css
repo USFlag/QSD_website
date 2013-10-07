@@ -333,7 +333,7 @@ h3 center {
 	font-size: 14px;
 }
 .catalog_topbar_links br {
-	/* display: none; */
+	/* display: none!important; */
 
 }
 
@@ -922,7 +922,7 @@ background: rgb(255,255,255);
 }
 
 .catalog_topbar_body hr {
-
+	display: none!important;
 	/* display: none!important; */
 	
 /*
@@ -957,7 +957,7 @@ background: rgb(255,255,255);
 .catalog_topbar_body {
 
 	position: absolute;
-	top: -40px;
+	top: -60px;
 	left: -1px;
 
 /*

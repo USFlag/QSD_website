@@ -57,6 +57,7 @@ h3 { color: #e38a22; font-size: 22.5px; }
 	background-repeat: repeat-x;
 	height: 1px;
 }
+/*Note that there are styles used within the head section of the designer and catalog that overide these.*/
 #page-container {
  	background-color: #fff;
  	border-bottom: 1px solid #7a637a;
