@@ -1868,22 +1868,53 @@ td.catalog_templates {
 
 #elements_sizectrl_s2 {
 	width: 580px;
-	padding-top: 60px;
+	padding-top: 75px!important;
 	position: relative;
 	left: 18px;
 }
 
+#panel_items {
+	margin-top: 45px;
+}
 
+#allpanels_controlbox table {
+	background-color: #656565;
+	color: #fff;
+	border-radius: 8px;
+}
 
+.ThinBorder {
+	border: none;
+	margin: 20px 0 20px 20px;
+}
 
+#commandstable_container {
+	width: 50%!important;
+	height: 59px;
+	padding: 8px;
+}
 
+.pointercursor {
+	color: #fff;
+}
 
+.AdminOptions {
+	color: #fff!important;
+}
 
+.pandisplay_container {
+	background-color: transparent!important;
+}
 
+#userbuttons_undo {
+	border-right: 1px solid #da7e2b;
+	margin-left: 47px;
+}
+#userbuttons_redo {
+	margin-right: 15px;
+}
 
-
-
-
-
-
+#userbuttons_addtext{
+	margin-left: 5px;
+}
 

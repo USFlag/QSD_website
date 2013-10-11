@@ -188,7 +188,7 @@ border-top: 1px solid #7a637a;
 #page-header .main-nav { 
 	background-color: #fff;
 	height: 35px;
-	line-height: 35px;
+	/* line-height: 35px; */
 }
 
 #page-header .main-nav ul, #page-header .main-nav li { float: left; } 
@@ -282,7 +282,7 @@ border-top: 1px solid #7a637a;
 	width: 250px;
 }
 #page-body .welcome {
-	padding: 45px 45px 80px 45px;
+	padding: 0px 45px 100px 45px;
 }
 #page-body .welcome h2 { 
 	font-size: 35px;

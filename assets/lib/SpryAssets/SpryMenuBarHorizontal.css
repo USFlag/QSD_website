@@ -37,6 +37,8 @@ ul.MenuBarHorizontal li
 	cursor: pointer;
 	/* width: 8em; */
 	float: left;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
 }
 /* Submenus should appear below their parent (top: 0) with a higher z-index, but they are initially off the left side of the screen (-1000em) */
 ul.MenuBarHorizontal ul
@@ -65,13 +67,13 @@ ul.MenuBarHorizontal ul li
 ul.MenuBarHorizontal ul ul {
 	position: absolute;
 	/* margin: -5% 0 0 95%; */
-	background-color: #da681f;
+	background-color: #dc7f2d;
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
 	padding: 10px;
 }
 ul.MenuBarHorizontal ul {
-	background-color: #da681f;
+	background-color: #dc7f2d;
 	border-top-right-radius: 5px;
 	border-bottom-left-radius: 5px;
 	border-bottom-right-radius: 5px;
@@ -120,12 +122,12 @@ ul.MenuBarHorizontal li a#drop-down-custom-banners-link:hover,
 ul.MenuBarHorizontal li a#drop-down-custom-flags-link:hover,
 ul.MenuBarHorizontal li a#drop-down-custom-signs-link:hover {
 	background-color: #4b2805;
-	border-top-left-radius: 5px;
-	border-top-right-radius: 5px;
 	color: #fff!important;
 }
 ul.MenuBarHorizontal li ul li a {
 	color: #fff!important;
+	display: block;
+	width: 170px;
 }
 ul.MenuBarHorizontal li ul li a:hover {
 	background-color: #4b2805;
@@ -139,10 +141,28 @@ ul.MenuBarHorizontal a:hover, ul.MenuBarHorizontal a:focus
 	/* background-color: #33C; */
 	/* color: #FFF; */
 }
+ul.MenuBarHorizontal a#drop-down-custom-banners-link.MenuBarItemHover {
+	background-color: #dc7f2d!important;
+	background-color: #4b2805;
+}
+ul.MenuBarHorizontal a#drop-down-custom-flags-link.MenuBarItemHover {
+	background-color: #dc7f2d!important;
+	background-color: #4b2805;
+}
+ul.MenuBarHorizontal a#drop-down-custom-signs-link.MenuBarItemHover {
+	background-color: #dc7f2d!important;
+	background-color: #4b2805;
+}
+ul.MenuBarHorizontal a.MenuBarItemSubmenuHover {
+	background-color: #4b2805;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	color: #fff!important;
+}
 /* Menu items that are open with submenus are set to MenuBarItemHover with a blue background and white text */
 ul.MenuBarHorizontal a.MenuBarItemHover, ul.MenuBarHorizontal a.MenuBarItemSubmenuHover, ul.MenuBarHorizontal a.MenuBarSubmenuVisible
 {
-	/* background-color: #33C; */
+	/* background-color: #33C!important; */
 	/* color: #FFF; */
 }
 
