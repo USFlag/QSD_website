@@ -836,7 +836,6 @@ background: rgb(255,255,255);
 	color: #444444;
 	text-decoration: none;
 	display: block;
-	width: 100%;
 /*
 	font-family: Arial, sans-serif;
 	font-size: 14px;
@@ -846,11 +845,17 @@ background: rgb(255,255,255);
 */
 }
 #catalog_menulinks a:hover {
-	color: #fff;
+	/* color: #e58a25!important; */
 }
 .catalog_menulinks_subcategorylinks {
-	font-size: 13px;
-	padding-left: 20px!important;
+	font-size: 12px;
+	/* padding-left: 20px!important; */
+	font-weight: lighter;
+	/*
+background-image: url(http://qualitysigndesigner.com/assets/img/backgrounds/bullet_chevron.png);
+	background-repeat:  no-repeat;
+	background-position: 7px 7px;
+*/
 }
 
 #catalog_menulinks ul {
@@ -862,11 +867,12 @@ background: rgb(255,255,255);
 */
 }
 
-#catalog_menulinks ul:hover { color: #fff; }
+#catalog_menulinks ul:hover { }
 
 #catalog_menulinks li {
 	font-size: 14px;
 	margin: 5px 0;
+	font-weight: bold;
 }
 
 #catalog_menulinks li:hover {
@@ -880,6 +886,7 @@ background: rgb(255,255,255);
 	background: -ms-linear-gradient(top, #e4781a 0%,#c6573b 100%); /* IE10+ */
 	background: linear-gradient(to bottom, #e4781a 0%,#c6573b 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4781a', endColorstr='#c6573b',GradientType=0 ); /* IE6-8 */
+	z-index: 100;
 }
 
 #catalog_menulinks ul li a, #catalog_menulinks ul li a:visited {
@@ -901,6 +908,7 @@ background: rgb(255,255,255);
 
 #catalog_menulinks ul li a:hover {
  /*        color:#029dd3; */
+ color: #000!important;
 }
 
 /* -------------- END MENU LINKS STYLES ------------------ */
@@ -1730,6 +1738,7 @@ td.catalog_templates {
 	
 }
 #catalog_itemscontainer_products_longdescription p {
+	/* width: 850px; */
 /*
    font-family: 'Roboto', Arial, Helvetica, sans-serif;
    font-weight: 300;
