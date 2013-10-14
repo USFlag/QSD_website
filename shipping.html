@@ -7,8 +7,10 @@
 	<meta name="keywords" content="custom signs, custom banners, custom flags, quality sign designer" />
 	<link href='http://fonts.googleapis.com/css?family=Droid+Sans|ABeeZee|Roboto:400,300,100' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="assets/css/reset.css" />
+	<link href="assets/lib/SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" />
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<script type="text/javascript" src="assets/lib/modernizr/modernizr.custom.45783.js"></script>
+	<script type="text/javascript" src="assets/lib/SpryAssets/SpryMenuBar.js"></script>
 	<script type="text/javascript" src="assets/lib/jQuery/jquery-1.9.1.min.js"></script>
 	<script type="text/javascript" src="assets/js/main.js"></script>
 	<script type="text/javascript">
@@ -84,16 +86,48 @@
 			<nav class="main-nav">
 				<h2 class="hide">Main Navigation</h2>
 				<div class="content-container">
-					<ul>
-						<li><a href="http://www.qualitysigndesigner.com/index.html">Home</a><span>|</span></li>
-						<li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTExNzU=">Custom Banners</a><span>|</span></li>
-						<li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTE2ODk=">Custom Flags</a><span>|</span></li>
-						<li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTE3MjkmcGMyPQ==">Custom Yard Signs</a><span>|</span></li>
-						<li><a href="http://www.qualitysigndesigner.com/art.html">Art Requirements</a><span>|</span></li>
-						<li><a href="https://www.youtube.com/user/QualitySignDesigner">Video Tutorials</a><span>|</span></li>
-						<li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/ext_cart">Cart</a></li>
-						<!-- <li><a href="#">Property Management</a><span>|</span></li> -->
-						<!-- <li class="featured-industry">Featured Industry</li> -->
+					<ul id="MenuBar1" class="MenuBarHorizontal">
+						<li><a href="#">Home</a><span>|</span></li>
+					   <li id="custom-banners-container"><a id="drop-down-custom-banners-link" class="MenuBarItemSubmenu" href="#">Custom Banners</a>
+					      <ul id="drop-down-custom-banners">
+					         <li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/index.php&tng=Y3BpPTYxNTE5JmNwaXM9MjcxMDI5JmNwaXNfdz03MiZjcGlzX2g9MzYmY3RpZz0w">Blank Canvas</a></li>
+					         <li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTExNzU=">All Templates</a></li>
+					         <li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTE2Mjk=">Fireworks Templates</a></li>
+					         <li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTExMjQ=">Slogan Templates</a></li>
+					         <li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTExMjA=">Auto Dealer Templates</a></li>
+					         <li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTExMTY=">Real Estate Templates</a></li>
+					         <li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTExMTk=">Business Templates</a></li>
+					         <li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTExMjE=">Sports Templates</a></li>
+					         <li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTExMjI=">Special Events</a></li>
+					         <li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTExMjM=">School Templates</a></li>
+					         <li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTExMjU=">Religious Templates</a></li>
+					      </ul>
+					      <span>|</span>
+					   </li>
+					   <li id="custom-flags-container"><a id="drop-down-custom-flags-link" class="MenuBarItemSubmenu" href="#">Custom Flags</a>
+					      <ul id="drop-down-custom-flags">
+					      	<li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTE2ODk=">All Flags</a></li>
+					         <li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTE4ODE=">13ft Feather Dancers</a></li>
+					         <li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTE4Nzk=">17ft Feather Dancers</a></li>
+					         <li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTE4OTI=">13ft Kahuna Flags</a></li>
+					         <li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTE4ODI=">17ft Kahuna Flags</a></li>
+					         <li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTE4MzY=">Horizontal Flags</a></li>
+					      </ul>
+					      <span>|</span>
+					   </li>
+					   <li id="custom-signs-container"><a id="drop-down-custom-signs-link" class="MenuBarItemSubmenu" href="#">Custom Yard Signs</a>
+					   	<ul id="drop-down-custom-signs">
+					      	<li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/index.php&tng=Y3BpPTU5OTM0JmNwaXM9MjY2NzYyJmNwaXNfdz0yNCZjcGlzX2g9MTgmY3RpZz0w">Blank Sign</a></li>
+					         <li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTE3MjkmcGMyPQ==">All Templates</a></li>
+					         <li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTE0OTA=">Slogan Templates</a></li>
+					         <li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTE3MzE=">Business Templates</a></li>
+					         <li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTE3NDE=">Political Campaigns</a></li>
+					      </ul>
+					      <span>|</span>
+					   </li>
+					   <li><a href="http://www.qualitysigndesigner.com/art.html">Art Requirements</a><span>|</span></li>
+					   <li><a href="https://www.youtube.com/user/QualitySignDesigner">Video Tutorials</a><span>|</span></li>
+					   <li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/ext_cart">Cart</a></li>
 					</ul>
 				</div>
 			</nav><!--END class="main-nav"-->
@@ -105,23 +139,29 @@
 	<!--======================================================-->
 	<!--Page Body-->
 		<section id="page-body">
-		<div style="padding: 30px 0" class="content-container">	
-			
-			<div id="aboutheader"><h2>Shipping & Returns</h2></div><br />
-         <div id="aboutcopy"><p><strong><h3>What is your Shipping Policy?</h3></strong><br />
-			We like happy customers at Quality Sign Designer.  Therefore, any order over $99 will receive free UPS Ground delivery to the 48 contiguous United States.  Your order will be shipped 1 business day after order placement and will arrive based on the chosen method of delivery.  The estimated arrival time for a UPS ground shipment will be 2 to 7 business days depending upon the shipping zip code.  Once the order is placed you will receive a shipping verification email giving an estimated time of delivery and a tracking number.
-			<br /><br />
-			Please Note:<br />
-			Quality sign Designer is not responsible for any consequential damages you may incur.  The only remedy available on a delayed order is refund of any shipping charges.  In the event of consequential damages we are only liable up to the amount of the purchase for the particular order.
-			<br /><br /><strong><h3>Which shipping methods do you use?</h3></strong><br />
-			We ship via UPS and offer UPS Ground, 3 Day Select, 2nd Day Air, and Next Day Air.
-			<br /><br />
-			<strong><h3>What is your Return Policy?</h3></strong><br />
-			Buying products online, especially custom "print on demand products", requires a high level of trust from both the the customer as well as the supplier. Naturally, we want to earn your trust as well as your business. Therefore, if you are not completely satisfied with your order just let us know within 48 hours of receipt at 800-897-6083.  Upon receiving your returned product (you will be responsible for return freight) we will be glad to give you a refund or replacement.  This offer only applies to orders of any single product design of 2 units or less.  Any order in excess of 2 units of a single product design will only be replaced if Quality Sign Designer is at fault. This offer is subject to change without notice.
+		
+		
+		<section id="shipping" class="content-container">
+			<h2>Shipping & Returns</h2>
+			<h3>What is your Shipping Policy?</h3>
+			<p>
+				We like happy customers at Quality Sign Designer.  Therefore, any order over $99 will receive free UPS Ground delivery to the 48 contiguous United States.  Your order will be shipped 1 business day after 
+				order placement and will arrive based on the chosen method of delivery.  The estimated arrival time for a UPS ground shipment will be 2 to 7 business days depending upon the shipping zip code.  Once the 
+				order is placed you will receive a shipping verification email giving an estimated time of delivery and a tracking number.
+				<br />
+				<strong>Please Note:</strong> Quality sign Designer is not responsible for any consequential damages you may incur.  The only remedy available on a delayed order is refund of any shipping charges.  In the event of consequential damages we are only liable up to the amount of the purchase for the particular order.
 			</p>
-			</div>
+			<h3>Which shipping methods do you use?</h3>
+			<p>We ship via UPS and offer UPS Ground, 3 Day Select, 2nd Day Air, and Next Day Air.</p>
+			<h3>What is your Return Policy?</h3>
+			<p>
+				Buying products online, especially custom "print on demand products", requires a high level of trust from both the the customer as well as the supplier. Naturally, we want to earn your trust as well as your 
+				business. Therefore, if you are not completely satisfied with your order just let us know within 48 hours of receipt at 800-897-6083.  Upon receiving your returned product (you will be responsible for return 
+				freight) we will be glad to give you a refund or replacement.  This offer only applies to orders of any single product design of 2 units or less.  Any order in excess of 2 units of a single product design will 
+				only be replaced if Quality Sign Designer is at fault. This offer is subject to change without notice.
+			</p>
+		</section><!--END id="shipping"-->
 			
-</div>			
 			
 		</section><!--END id="page-body"-->
 	<!--END Page Body-->
@@ -271,6 +311,9 @@
 			lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
 			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
 		})();
+	</script>
+	<script type="text/javascript">
+	var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1");
 	</script>
 </body>
 </html>

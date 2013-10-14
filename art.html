@@ -7,8 +7,10 @@
 	<meta name="keywords" content="custom signs, custom banners, custom flags, quality sign designer" />
 	<link href='http://fonts.googleapis.com/css?family=Droid+Sans|ABeeZee|Roboto:400,300,100' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="assets/css/reset.css" />
+	<link href="assets/lib/SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" />
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<script type="text/javascript" src="assets/lib/modernizr/modernizr.custom.45783.js"></script>
+	<script type="text/javascript" src="assets/lib/SpryAssets/SpryMenuBar.js"></script>
 	<script type="text/javascript" src="assets/lib/jQuery/jquery-1.9.1.min.js"></script>
 	<script type="text/javascript" src="assets/js/main.js"></script>
 	<script type="text/javascript">
@@ -84,16 +86,48 @@
 			<nav class="main-nav">
 				<h2 class="hide">Main Navigation</h2>
 				<div class="content-container">
-					<ul>
-						<li><a href="http://www.qualitysigndesigner.com/index.html">Home</a><span>|</span></li>
-						<li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTExNzU=">Custom Banners</a><span>|</span></li>
-						<li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTE2ODk=">Custom Flags</a><span>|</span></li>
-						<li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTE3MjkmcGMyPQ==">Custom Yard Signs</a><span>|</span></li>
-						<li><a href="http://www.qualitysigndesigner.com/art.html">Art Requirements</a><span>|</span></li>
-						<li><a href="https://www.youtube.com/user/QualitySignDesigner">Video Tutorials</a><span>|</span></li>
-						<li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/ext_cart">Cart</a></li>
-						<!-- <li><a href="#">Property Management</a><span>|</span></li> -->
-						<!-- <li class="featured-industry">Featured Industry</li> -->
+					<ul id="MenuBar1" class="MenuBarHorizontal">
+						<li><a href="#">Home</a><span>|</span></li>
+					   <li id="custom-banners-container"><a id="drop-down-custom-banners-link" class="MenuBarItemSubmenu" href="#">Custom Banners</a>
+					      <ul id="drop-down-custom-banners">
+					         <li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/index.php&tng=Y3BpPTYxNTE5JmNwaXM9MjcxMDI5JmNwaXNfdz03MiZjcGlzX2g9MzYmY3RpZz0w">Blank Canvas</a></li>
+					         <li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTExNzU=">All Templates</a></li>
+					         <li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTE2Mjk=">Fireworks Templates</a></li>
+					         <li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTExMjQ=">Slogan Templates</a></li>
+					         <li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTExMjA=">Auto Dealer Templates</a></li>
+					         <li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTExMTY=">Real Estate Templates</a></li>
+					         <li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTExMTk=">Business Templates</a></li>
+					         <li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTExMjE=">Sports Templates</a></li>
+					         <li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTExMjI=">Special Events</a></li>
+					         <li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTExMjM=">School Templates</a></li>
+					         <li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTExMjU=">Religious Templates</a></li>
+					      </ul>
+					      <span>|</span>
+					   </li>
+					   <li id="custom-flags-container"><a id="drop-down-custom-flags-link" class="MenuBarItemSubmenu" href="#">Custom Flags</a>
+					      <ul id="drop-down-custom-flags">
+					      	<li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTE2ODk=">All Flags</a></li>
+					         <li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTE4ODE=">13ft Feather Dancers</a></li>
+					         <li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTE4Nzk=">17ft Feather Dancers</a></li>
+					         <li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTE4OTI=">13ft Kahuna Flags</a></li>
+					         <li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTE4ODI=">17ft Kahuna Flags</a></li>
+					         <li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTE4MzY=">Horizontal Flags</a></li>
+					      </ul>
+					      <span>|</span>
+					   </li>
+					   <li id="custom-signs-container"><a id="drop-down-custom-signs-link" class="MenuBarItemSubmenu" href="#">Custom Yard Signs</a>
+					   	<ul id="drop-down-custom-signs">
+					      	<li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/index.php&tng=Y3BpPTU5OTM0JmNwaXM9MjY2NzYyJmNwaXNfdz0yNCZjcGlzX2g9MTgmY3RpZz0w">Blank Sign</a></li>
+					         <li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTE3MjkmcGMyPQ==">All Templates</a></li>
+					         <li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTE0OTA=">Slogan Templates</a></li>
+					         <li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTE3MzE=">Business Templates</a></li>
+					         <li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/catalog/index.php&p=cGM9MTE3NDE=">Political Campaigns</a></li>
+					      </ul>
+					      <span>|</span>
+					   </li>
+					   <li><a href="http://www.qualitysigndesigner.com/art.html">Art Requirements</a><span>|</span></li>
+					   <li><a href="https://www.youtube.com/user/QualitySignDesigner">Video Tutorials</a><span>|</span></li>
+					   <li><a href="http://designer.realtimedesigner.com/qualitysigndesigner/QualitySignDesigner/ext_cart">Cart</a></li>
 					</ul>
 				</div>
 			</nav><!--END class="main-nav"-->
@@ -107,33 +141,30 @@
 		<section id="page-body">
 			
 			
-			<div style="padding: 30px 0" class="content-container">
-				<div id="aboutheader"><h2>Art Requirements</h2></div>
-         <div id="aboutcopy"><p style="padding-left: 15px">Besides creating artwork for your products with our online design tool. We also have several artwork templates that you can choose from as a base for your design or start from scratch. Adding text, setting fonts and colors is simple. Choose from 1000's of clip art or add your own digital files.<br/><br/>
-
-			<strong><h3>Uploading Digital Files</h3></strong>
-			<p style="padding-left: 15px">We can work with most any graphics file format. Formats we prefer are:</p>
-			<br/>
-			    <br/><p style="padding-left: 15px">cdr - CorelDRAW® (convert TEXT to curves)</p>
-			    <br/><p style="padding-left: 15px">eps - Postscript</p>
-			    <br/><p style="padding-left: 15px">pdf - Acrobat</p>
-			    <br/><p style="padding-left: 15px">ai - Adobe Illustrator® (convert TEXT to outlines)</p>
-			    <br/><p style="padding-left: 15px">wmf - Windows Meta File</p>
-			    <br/><p style="padding-left: 15px">gif - Bitmap</p>
-			    <br/><p style="padding-left: 15px">jpg - Bitmap</p>
-			    <br/><p style="padding-left: 15px">bmp - Bitmap</p>
-			    <br/><p style="padding-left: 15px">tif - Bitmap</p>
-			    <br/><p style="padding-left: 15px">png - Bitmap </p>
-			<br/><br/>
-			If your software isn't listed above, most programs will export in one of the formats above. Please remember to convert any text to curves since Fonts tend to vary from user to user.
-			<br/><br/>
-			<strong><h3>What is the minimum DPI I can use?</h3></strong><br />
-			We recommend not using any less than 100 DPI
-			</p>
-				
-			</div>
-         
-
+			<section id="art" class="content-container">
+				<h2>Art Requirements</h2>
+				<p>
+					Besides creating artwork for your products with our online design tool. We also have several artwork templates that you can choose from as a base for your design or start from scratch. 
+					Adding text, setting fonts and colors is simple. Choose from 1000's of clip art or add your own digital files.
+				</p>
+				<h3>Uploading Digital Files</h3>
+				<p>We can work with most any graphics file format. Formats we prefer are:</p>
+				<ul>
+					<li>eps - Postscript</li>
+					<li>ai - Adobe Illustrator® (convert TEXT to outlines)</li>
+					<li>pdf - Acrobat</li>
+					<li>cdr - CorelDRAW® (convert TEXT to curves)</li>
+					<li>wmf - Windows Meta File</li>
+					<li>gif - Bitmap</li>
+					<li>jpg - Bitmap</li>
+					<li>bmp - Bitmap</li>
+					<li>tif - Bitmap</li>
+					<li>png - Bitmap</li>
+				</ul>
+				<p>If your software isn't listed above, most programs will export in one of the formats above. Please remember to convert any text to curves since Fonts tend to vary from user to user.</p>
+				<h3>What is the minimum DPI I can use?</h3>
+				<p>We recommend not using any less than 100 DPI</p>
+			</section><!--END id="art"-->
 			
 			
 		</section><!--END id="page-body"-->
@@ -284,6 +315,9 @@
 			lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
 			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
 		})();
+	</script>
+	<script type="text/javascript">
+	var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1");
 	</script>
 </body>
 </html>

@@ -248,7 +248,7 @@ border-top: 1px solid #7a637a;
 #page-body .design-your-own li.choose-a-product { margin: 0 30px 0 0; left: -25px; }
 #page-body .design-your-own li.start-designing { margin: 0 30px 0 0; left: 365px; }
 #page-body .design-your-own li.add-to-cart { margin: 0 30px 0 0; left: 755px; }
-#page-body .featured-catalog { margin: 30px 0 65px 0; }
+/* #page-body .featured-catalog { margin: 30px 0 65px 0; } */
 #page-body .featured-catalog .content-container {
 	margin: 0 auto;
 	width: 1025px;
@@ -282,7 +282,7 @@ border-top: 1px solid #7a637a;
 	width: 250px;
 }
 #page-body .welcome {
-	padding: 0px 45px 100px 45px;
+	padding: 0px 45px 60px 45px;
 }
 #page-body .welcome h2 { 
 	font-size: 35px;
@@ -379,23 +379,23 @@ border-top: 1px solid #7a637a;
 /*--------------------------------*/
 
 
-#about, #contact, #faqs {
+#about, #contact, #faqs, #art, #privacy, #shipping {
 	color: #444444;
 	font-size: 14px;
 	padding: 30px 0;
 	line-height: 25px;
 }
-#about h2, #contact h2, #faqs h2 {
+#about h2, #contact h2, #faqs h2, #art h2, #privacy h2, #shipping h2 {
 	margin-bottom: 15px;
 }
-#faqs h3 {
+#faqs h3, #art h3, #privacy h3, #shipping h3 {
 	color: #7a637a;
 	font-size: 22px;
 }
-#about ul {
+#about ul, #art ul {
 	margin: 15px;
 }
-#about ul li, #contact ul li, #faqs ul li {
+#about ul li, #contact ul li, #faqs ul li, #art ul li {
 	background-image: url(../img/icons/right_bullet_icon.png);
 	background-repeat: no-repeat;
 	background-position: 0px 7px;
@@ -412,7 +412,7 @@ border-top: 1px solid #7a637a;
 	color: #7a637a;
 }
 
-#contact p { margin-bottom: 15px; }
+#contact p, #art p, #privacy p, #shipping p { margin-bottom: 15px; }
 
 
 

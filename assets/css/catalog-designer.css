@@ -1733,9 +1733,10 @@ td.catalog_templates {
 	text-decoration:underline;
 */
 }
-/*Ken's Styles*/
+
 #catalog_itemscontainer_products_longdescription {
-	
+	border-bottom: 1px solid #c3c3c3;
+	width: 860px;
 }
 #catalog_itemscontainer_products_longdescription p {
 	/* width: 850px; */
