@@ -1944,9 +1944,18 @@ td.catalog_templates {
 }
 
 
+#panel_settings {
+	margin: 15px;
+}
 
+#panel_sizes {
+	margin: 15px;
+}
 
-
+#design_showncolors {
+	margin: 10px 0px 10px 0px;
+	display: none;
+}
 
 
 
