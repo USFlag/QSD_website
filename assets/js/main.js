@@ -106,6 +106,17 @@ $(document).ready(function(){
 	// Catalog Nav
 	//$("#catalog_menulinks_container_body1 ul li a.catalog_menulinks_subcategorylinks").parent().attr("style","background-image: url(http://qualitysigndesigner.com/assets/img/backgrounds/bullet_circle.png); background-repeat: no-repeat; background-position: 18px 6px; ");
 	$("#catalog_menulinks_container_body1 ul li a.catalog_menulinks_subcategorylinks").attr("style","background-image: url(http://qualitysigndesigner.com/assets/img/backgrounds/bullet_circle.png); background-repeat: no-repeat; background-position: 18px 6px; padding-left:30px; ");
+
+
+	if($("iframe").length == 0){
+		console.log("There is no Iframe!");
+	}
+	
+
+
+
+
+
 });
 
 

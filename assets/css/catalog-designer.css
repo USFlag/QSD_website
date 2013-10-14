@@ -69,7 +69,7 @@ background: rgb(255,255,255); /* Old browsers */
 	z-index:9999;
 	font:normal 14px Arial, Helvetica, sans-serif;
         color:#000000 !important;
-	background:#E6E6E6 url(http://www.qualitydealersupply.com/sg_mockup-white-final_media/main-splash.jpg) no-repeat -230px 0px;
+	background:#E6E6E6 /* url(http://www.qualitydealersupply.com/sg_mockup-white-final_media/main-splash.jpg) no-repeat -230px 0px */;
 }
 	
 #catalog_instantpricing_body {
@@ -1927,4 +1927,34 @@ td.catalog_templates {
 #userbuttons_addtext{
 	margin-left: 5px;
 }
+
+
+#tabs_floatingdiv_iframe #local_table_clipspopup_categories_container {
+	height: 370px!important;
+	overflow: scroll!important;
+}
+
+#tabs_floatingdiv_iframe .local_table_clipspopup {
+	border: none!important;
+	background-color: #FFFFFF;
+	border-collapse: collapse;
+	height: 370px!important;
+	overflow: scroll!important;
+	display: block!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
