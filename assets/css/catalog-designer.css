@@ -83,6 +83,7 @@ background: rgb(255,255,255); /* Old browsers */
 /* 	background:#39549f !important; */
 }
 	
+	
 #tabs_floatingdiv {
 
 	border: 5px solid #7a6378 !important;
@@ -90,15 +91,15 @@ background: rgb(255,255,255); /* Old browsers */
 	-moz-box-shadow: 3px 3px 20px #000000 !important;
 	-webkit-box-shadow: 3px 3px 20px #000000 !important;
 /* For IE 8 */
-	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=30, Direction=135, Color='#000000')";
+	/* -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=30, Direction=135, Color='#000000')"; */
 /* For IE 5.5 - 7 */
-	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=30, Direction=135, Color='#000000');
+	/* filter: progid:DXImageTransform.Microsoft.Shadow(Strength=30, Direction=135, Color='#000000'); */
 	font:normal 14px Arial, Helvetica, sans-serif !important;
 	background:#FFFFFF !important;
 	border-radius:8px;
 	-moz-border-radius:8px;
 	-webkit-border-radius:8px;
-	height: 600px!important;
+	height: 650px!important;
 	width: 1000px!important;
 }
 
@@ -1148,9 +1149,9 @@ margin: 0important;
 	
 	color: #e38a22;
 	text-decoration: none;
-	margin-bottom: 5px!important;
 	display: block;
-	
+	width: 175px;
+	margin: 0 auto 5px auto!important;
 
 /*
 	font-family: Verdana,Arial,Helvetica,sans-serif;
@@ -1888,7 +1889,7 @@ td.catalog_templates {
 }
 
 #allpanels_controlbox table {
-	background-color: #656565;
+	background-color: #7e7e7e;
 	color: #fff;
 	border-radius: 8px;
 }
@@ -1927,22 +1928,6 @@ td.catalog_templates {
 #userbuttons_addtext{
 	margin-left: 5px;
 }
-
-
-#tabs_floatingdiv_iframe #local_table_clipspopup_categories_container {
-	height: 370px!important;
-	overflow: scroll!important;
-}
-
-#tabs_floatingdiv_iframe .local_table_clipspopup {
-	border: none!important;
-	background-color: #FFFFFF;
-	border-collapse: collapse;
-	height: 370px!important;
-	overflow: scroll!important;
-	display: block!important;
-}
-
 
 #panel_settings {
 	margin: 15px;
